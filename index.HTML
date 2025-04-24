@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+  <title>TecnoAlfonso</title> 
+  <link rel="stylesheet" href="PF_1.CSS" /> 
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header>
+    <div class="container header-container">
+      <h1 class="logo">TecnoAlfonso</h1>
+      <!-- Barra de navegación con botones -->
+      <nav class="nav-bar">
+        <button onclick="location.href='contacto.html'" class="btn-nav">Contacto</button> 
+        <button onclick="location.href='problemas.html'" class="btn-nav">Problemas</button> 
+      </nav>
+    </div>
+  </header>
+
+  <!-- FRASE MOTIVADORA -->
+  <section class="hero">
+    <div class="container">
+      <h2>Innovación que transforma tu mundo</h2>
+      <p>Calidad, estilo y tecnología al alcance de tu mano</p>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS Nuevos -->
+  <section class="productos">
+    <div class="container">
+      <!-- Título para la sección de nuevos productos--> 
+      <h2>Nuevos Productos</h2>
+      <div class="grid-productos">
+        <!-- Producto De Muestra -->
+        <div class="producto" data-nombre="Maus Gaming" data-precio="25" data-categoria="Accesorios">
+          <img src="img/maus gaming 1.jpg" alt="Maus Gaming"> 
+          <h3>Maus Gaming</h3> 
+          <p class="categoria">Accesorios</p> 
+          <p class="precio">$25.00</p> 
+          <p class="descripcion">Ratón ergonómico con luces RGB y alta precisión.</p> 
+        </div>
+
+        <div class="producto" data-nombre="Teclado Mecánico" data-precio="45" data-categoria="Accesorios">
+          <img src="img/teclado mecanico.jpg" alt="Teclado Mecánico"> 
+          <h3>Teclado Mecánico</h3> 
+          <p class="categoria">Accesorios</p> 
+          <p class="precio">$45.00</p> 
+          <p class="descripcion">Retroiluminado ideal para juegos y oficina.</p> 
+        </div>
+
+        <div class="producto" data-nombre="Auriculares Bluetooth" data-precio="35" data-categoria="Audio">
+          <img src="img/auriculares inalambrico.jpg" alt="Auriculares Bluetooth"> 
+          <h3>Auriculares Bluetooth</h3> 
+          <p class="categoria">Audio</p> 
+          <p class="precio">$35.00</p> 
+          <p class="descripcion">Cancelación de ruido y batería de larga duración.</p> 
+        </div>
+      </div>
+
+      <!-- Enlace para ver todos los productos -->
+      <div class="ver-productos">
+        <a href="productos.html" class="btn-ver">Ver productos</a> 
+      </div>
+    </div>
+  </section>
+
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <div class="container">
+      <p>© 2025 AlfonsoCaceres. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="productos.js"></script>
+</body>
+</html>
